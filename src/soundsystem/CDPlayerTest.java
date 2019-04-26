@@ -15,11 +15,8 @@ public class CDPlayerTest {
     @Rule
     public final SystemOutRule outRule = new SystemOutRule().enableLog();
 
-
-
     @Autowired
     private CDPlayer player;
-
 
     @Test
     public void play(){
